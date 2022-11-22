@@ -18,7 +18,7 @@
         <title>Users</title>
     </head>
 
-<body>
+<body style="padding: 100px">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Users</h1>

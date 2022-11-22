@@ -26,5 +26,13 @@ services:
       - "./src/php/app:/app/public"
     env_file:
       - "./src/php/env/php.env"
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    environment:
+      PMA_HOST: mysql
+    ports:
+      - "8080:80"
+
 networks:
   workshop:
