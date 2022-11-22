@@ -4,7 +4,6 @@ services:
   web:
     image: nginx:latest
     volumes:
-      #  - "./index.php:/usr/share/nginx/html/index.php"
       - "./nginx/conf/nginx.conf:/etc/nginx/nginx.conf"
     ports:
       - "80:80"
